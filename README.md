@@ -1,4 +1,26 @@
-# oua_bootcamp
+# **Takım İsmi**
+Takım Flutter 114
+## **Takım Üyeleri**
+• Batuhan Arslaner: Developer
+• Kadirhan Sağlam: Developer
+• Nilsu Sevinçli: Product Owner
+• Selin Berçin: Scrum Master
+• Şevval Bilkay: Developer
+
+# **Ürün İle İlgili Bilgiler**
+## **Ürün İsmi**
+## **Ürün Açıklaması**
+## **Ürün Özellikleri**
+## **Hedef Kitle**
+
+YazıYazıYazıYazıYazıYazıYazıYazıYazıYazı
+# **Sprint 1 
+**• Sprint içinde tamamlanması tahmin edilen puan:** 100 puan
+**• Puan tamamlama mantığı:**
+**• Daily Scrum:**
+**• Sprint Board Update:**
+**• Sprint Review:**
+**• Sprint Retrospective:**
 
 A new Flutter project.
 
