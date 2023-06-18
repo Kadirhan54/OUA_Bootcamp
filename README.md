@@ -13,7 +13,7 @@ Takım Flutter 114
 ## **Ürün Özellikleri**
 ## **Hedef Kitle**
 
-YazıYazıYazıYazıYazıYazıYazıYazıYazıYazı
+* * * 
 # **Sprint 1 
 **• Sprint içinde tamamlanması tahmin edilen puan:** 100 puan
 **• Puan tamamlama mantığı:**
