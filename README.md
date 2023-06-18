@@ -1,11 +1,14 @@
 # **Takım İsmi**
 Takım Flutter 114
 ## **Takım Üyeleri**
- • Batuhan Arslaner: Developer
- • Kadirhan Sağlam: Developer
- • Nilsu Sevinçli: Product Owner
- • Selin Berçin: Scrum Master
- • Şevval Bilkay: Developer
+ |AD SOYAD| GÖREVLER | 
+ |:------:| :-------:|
+ |Batuhan Arslaner| Developer|
+ |Kadirhan Sağlam: Developer|
+ |Nilsu Sevinçli: Product Owner|
+ |Selin Berçin: Scrum Master|
+ |Şevval Bilkay: Developer|
+ 
 # **Ürün İle İlgili Bilgiler**
 ## **Ürün İsmi**
 ## **Ürün Açıklaması**
