@@ -1,9 +1,9 @@
 # **Takım İsmi**
 Takım Flutter 114
 ## **Takım Üyeleri**
- |AD SOYAD| GÖREVLER | 
- |:------:| :-------:|
- |Batuhan Arslaner| Developer|
+ |AD SOYAD| GÖREVLER | BAĞLANTI|
+ |:------:| :-------:|:-------|
+ |Batuhan Arslaner| Developer| [LinkedIn](https://www.linkedin.com/in/batuhan-arslaner-a59bb2114/?originalSubdomain=tr)
  |Kadirhan Sağlam| Developer|
  |Nilsu Sevinçli|Product Owner|
  |Selin Berçin| Scrum Master|
