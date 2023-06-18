@@ -39,8 +39,8 @@ Bu uygulama, günlük hayatlarında çeşitli problemlerle karşılaşan ve çö
 
 **• Sprint Review:** İlk sprintte ekibin sınav ve iş yoğunluğu dolayısıyla ürün fikrininin belirlenmesi üzerine yoğunlaşılmıştır, geliştirme anlamında fazla ilerleme sağlanamamıştır. 1. sprintte Figma üzerinde takımca kararlaştırılan ekranlar diğer sprintte tasarlanmaya başlanacaktır. Uygulamanın amacına ulaşabilmesi için diğer sprintte hedef kitleyle birebir iletişime geçilerek kullanıcılardan alınan fikirler değerlendirilecektir.  
 **• Sprint  Review Katılımcıları:** Batuhan Arslaner, Kadirhan Sağlam, Nilsu Sevinçli, Selin Berçin, Şevval Bilkay
-
-**• Sprint Retrospective:**  ✧ İlk sprintte ürün geliştirilmeye tam anlamıyla başlanmadığından dolayı 2. Sprintte takvimin yoğunlaştırılmasına, daha hızlı ve çok çalışılmasına karar verildi.   
+**• Sprint Retrospective:**   
+✧ İlk sprintte ürün geliştirilmeye tam anlamıyla başlanmadığından dolayı 2. Sprintte takvimin yoğunlaştırılmasına, daha hızlı ve çok çalışılmasına karar verildi.   
 ✧ Takımdaki herkesin projenin içinde bulunabilmesi ve kopukluk olmaması adına sprint içerisindeki toplantıların sıklaştırılmasına ve daily scrumlara daha çok önem verilmesine karar verildi.  
 ✧ Görevleri, gelişmeleri ve tarihleri daha net takip edebilmek için proje yönetimi kısmına da ağırlık verilmesine, daha çok görsel kullanılmasına karar verildi.   
 
