@@ -20,7 +20,7 @@ Takım Flutter 114
 **• Sprint Notları:** Proje yönetiminde takım olarak Asana kullanımı kararlaştırılmıştır. İlk sprintte rol dağılımları ve ürün fikri üzerine yoğunlaşılmıştır.  
 **• Sprint içinde tamamlanması tahmin edilen puan:** 70 puan  
 **• Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in okul ve iş yoğunlukları dolayısıyla en azından 70 ile başlaması gerektiğine karar verildi.    
-**• Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır:   
+**• Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats] (https://stdyildizedu-my.sharepoint.com/:w:/r/personal/selin_bercin_std_yildiz_edu_tr/_layouts/15/Doc.aspx?sourcedoc=%7Bb4377bb3-dcf1-4d17-b74f-02dca24fdfe7%7D&action=edit&wdPreviousSession=2d6fe1dd-cd23-41c7-a661-f0b0acb3fcbf)
 **• Sprint Board Update:**  
 **• Sprint Review:**  
 **• Sprint Retrospective:**  
