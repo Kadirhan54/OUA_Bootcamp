@@ -25,7 +25,7 @@ Bu uygulama, kullanıcıların günlük hayatlarında karşılaştıkları probl
 ## **Hedef Kitle:** 
 Bu uygulama, günlük hayatlarında çeşitli problemlerle karşılaşan ve çözüm arayan herkesi hedeflemektedir. Kullanıcılar, problem paylaşma ve çözüm önerileri alarak sosyal etkileşimde bulunmak, farklı bakış açılarına maruz kalmak ve kişisel gelişimlerini desteklemek isteyenler için idealdir. Özellikle genç yetişkinler ve yetişkinler arasında ilgi çekeceği düşünülen bu uygulama, bir topluluk hissi yaratmayı ve kullanıcıların birbirlerine yardım ederken eğlenmelerini sağlamayı hedeflemektedir.  
 ## **Product Backlog URL:** 
-[Asana Backlog Board_ Sprint1] (https://app.asana.com/0/1204770782264648/board)
+[Asana Backlog Board_ Sprint1](https://app.asana.com/0/1204770782264648/board)
 
 * * * 
 # **Sprint 1**
