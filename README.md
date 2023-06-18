@@ -4,10 +4,10 @@ Takım Flutter 114
  |AD SOYAD| GÖREVLER | BAĞLANTI|
  |:------:| :-------:|:-------|
  |Batuhan Arslaner| Developer| [LinkedIn](https://www.linkedin.com/in/batuhan-arslaner-a59bb2114/?originalSubdomain=tr)
- |Kadirhan Sağlam| Developer|
- |Nilsu Sevinçli|Product Owner|
- |Selin Berçin| Scrum Master|
- |Şevval Bilkay| Developer|
+ |Kadirhan Sağlam| Developer| [LinkedIn](https://www.linkedin.com/in/kadirhansaglam/?originalSubdomain=tr)
+ |Nilsu Sevinçli|Product Owner| [LinkedIn](https://www.linkedin.com/in/nilsusevincli)
+ |Selin Berçin| Scrum Master| [LinkedIn](https://www.linkedin.com/in/selin-ber%C3%A7in-52b0a4205/)
+ |Şevval Bilkay| Developer| [LinkedIn](https://www.linkedin.com/in/%C5%9Fevval-bilkay-655a31188/)
  
 # **Ürün İle İlgili Bilgiler**
 ## **Ürün İsmi**
