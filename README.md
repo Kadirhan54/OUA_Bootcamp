@@ -14,7 +14,7 @@ Takım Flutter 114
 ## **Hedef Kitle**
 
 * * * 
-# **Sprint 1 
+# **Sprint 1**
 **• Sprint içinde tamamlanması tahmin edilen puan:** 100 puan
 **• Puan tamamlama mantığı:**
 **• Daily Scrum:**
