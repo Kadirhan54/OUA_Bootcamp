@@ -11,6 +11,7 @@ Takım Flutter 114
  
 # **Ürün İle İlgili Bilgiler**
 ## **Ürün İsmi**
+MeetUp
 ## **Ürün Açıklaması:**
 Bu uygulama, kullanıcıların günlük hayatlarında karşılaştıkları problemleri paylaşarak çözümler bulmalarını sağlayan bir sosyal platformdur. Anonim olma zorunluluğuyla birlikte kullanıcılar, kendi avatarlarını oluşturarak diğer kullanıcılarla etkileşime geçebilir. Uygulama, kullanıcıların problemlerini paylaşmalarını, başkalarının deneyimlerini dinlemelerini ve farklı bakış açılarıyla çözüm aramalarını teşvik eder. Problemlere çözümler sunarak, kullanıcılar puan kazanır ve bu puanlarla avatarlarını kişiselleştirebilirler.
 ## **Ürün Özellikleri**
