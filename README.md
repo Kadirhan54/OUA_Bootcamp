@@ -11,17 +11,27 @@ Takım Flutter 114
  
 # **Ürün İle İlgili Bilgiler**
 ## **Ürün İsmi**
-## **Ürün Açıklaması**
+## **Ürün Açıklaması:**
+Bu uygulama, kullanıcıların günlük hayatlarında karşılaştıkları problemleri paylaşarak çözümler bulmalarını sağlayan bir sosyal platformdur. Anonim olma zorunluluğuyla birlikte kullanıcılar, kendi avatarlarını oluşturarak diğer kullanıcılarla etkileşime geçebilir. Uygulama, kullanıcıların problemlerini paylaşmalarını, başkalarının deneyimlerini dinlemelerini ve farklı bakış açılarıyla çözüm aramalarını teşvik eder. Problemlere çözümler sunarak, kullanıcılar puan kazanır ve bu puanlarla avatarlarını kişiselleştirebilirler.
 ## **Ürün Özellikleri**
-## **Hedef Kitle**
+**Avatar Oluşturma:** Kullanıcılar, kendi avatarlarını yaratıcı ve nostaljik bir arayüzle oluşturabilirler.
+**Anonimlik:** Anonim olma zorunluluğu, kullanıcıların rahat bir şekilde problemlerini paylaşmalarını ve çözüm aramalarını sağlar.
+**Problem Paylaşma:** Kullanıcılar günlük hayatlarındaki problemlerini yazarak paylaşabilirler.
+**Çözüm Önerileri:** Kullanıcının problemlerine diğer kullanıcılar tarafından çözüm önerileri sunulur.
+**Puanlama Sistemi:** Kullanıcılar, çözüm önerilerine puan vererek katkıda bulunan kullanıcıları ödüllendirebilirler.
+**İtem Mağazası:** Kullanıcılar, puanlarını kullanarak avatarlarına özgün itemler satın alabilirler.
+**Sohbet Odaları:** Kullanıcılar, benzer itemlere sahip olan ve aynı seviyede olan diğer kullanıcılarla görüşebilirler.
+## **Hedef Kitle:** 
+Bu uygulama, günlük hayatlarında çeşitli problemlerle karşılaşan ve çözüm arayan herkesi hedeflemektedir. Kullanıcılar, problem paylaşma ve çözüm önerileri alarak sosyal etkileşimde bulunmak, farklı bakış açılarına maruz kalmak ve kişisel gelişimlerini desteklemek isteyenler için idealdir. Özellikle genç yetişkinler ve yetişkinler arasında ilgi çekeceği düşünülen bu uygulama, bir topluluk hissi yaratmayı ve kullanıcıların birbirlerine yardım ederken eğlenmelerini sağlamayı hedeflemektedir.
 
 * * * 
 # **Sprint 1**
 **• Sprint Notları:** Proje yönetiminde takım olarak Asana kullanımı kararlaştırılmıştır. İlk sprintte rol dağılımları ve ürün fikri üzerine yoğunlaşılmıştır.  
 **• Sprint içinde tamamlanması tahmin edilen puan:** 70 puan  
 **• Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in okul ve iş yoğunlukları dolayısıyla en azından 70 ile başlaması gerektiğine karar verildi.    
-**• Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats](https://stdyildizedu-my.sharepoint.com/:w:/r/personal/selin_bercin_std_yildiz_edu_tr/_layouts/15/Doc.aspx?sourcedoc=%7Bb4377bb3-dcf1-4d17-b74f-02dca24fdfe7%7D&action=edit&wdPreviousSession=2d6fe1dd-cd23-41c7-a661-f0b0acb3fcbf&cid=7dba4bdf-d4a1-45c8-b16c-5f53d793704d)
-**• Sprint Board Update:**  
+**• Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats](https://stdyildizedu-my.sharepoint.com/:w:/r/personal/selin_bercin_std_yildiz_edu_tr/_layouts/15/Doc.aspx?sourcedoc=%7Bb4377bb3-dcf1-4d17-b74f-02dca24fdfe7%7D&action=edit&wdPreviousSession=2d6fe1dd-cd23-41c7-a661-f0b0acb3fcbf&cid=7dba4bdf-d4a1-45c8-b16c-5f53d793704d)  
+**• Sprint Board Update:** ![Sprint Board Screenshot][C:\Users\lenovo\OneDrive\Resimler\Ekran görüntüsü 2023-06-19 002020.png]
+
 **• Sprint Review:**  
 **• Sprint Retrospective:**  
 
