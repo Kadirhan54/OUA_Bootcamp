@@ -31,6 +31,9 @@ Bu uygulama, günlük hayatlarında çeşitli problemlerle karşılaşan ve çö
 **• Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in okul ve iş yoğunlukları dolayısıyla en azından 70 ile başlaması gerektiğine karar verildi.    
 **• Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats](https://stdyildizedu-my.sharepoint.com/:w:/r/personal/selin_bercin_std_yildiz_edu_tr/_layouts/15/Doc.aspx?sourcedoc=%7Bb4377bb3-dcf1-4d17-b74f-02dca24fdfe7%7D&action=edit&wdPreviousSession=2d6fe1dd-cd23-41c7-a661-f0b0acb3fcbf&cid=7dba4bdf-d4a1-45c8-b16c-5f53d793704d)  
 **• Sprint Board Update:** ![Sprint Board Screenshot](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/3c4d654a-485d-4686-8391-976b9c8be45d)
+![Screenshot (93)](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/7fee1545-fc73-4d67-8e60-6a1e5774c1b5)
+![Screenshot (92)](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/cf2dd7c2-e09e-4ca4-ad01-090dd387293e)
+
 
 
 **• Sprint Review:**  
