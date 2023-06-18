@@ -14,13 +14,13 @@ Takım Flutter 114
 ## **Ürün Açıklaması:**
 Bu uygulama, kullanıcıların günlük hayatlarında karşılaştıkları problemleri paylaşarak çözümler bulmalarını sağlayan bir sosyal platformdur. Anonim olma zorunluluğuyla birlikte kullanıcılar, kendi avatarlarını oluşturarak diğer kullanıcılarla etkileşime geçebilir. Uygulama, kullanıcıların problemlerini paylaşmalarını, başkalarının deneyimlerini dinlemelerini ve farklı bakış açılarıyla çözüm aramalarını teşvik eder. Problemlere çözümler sunarak, kullanıcılar puan kazanır ve bu puanlarla avatarlarını kişiselleştirebilirler.
 ## **Ürün Özellikleri**
-**Avatar Oluşturma:** Kullanıcılar, kendi avatarlarını yaratıcı ve nostaljik bir arayüzle oluşturabilirler.
-**Anonimlik:** Anonim olma zorunluluğu, kullanıcıların rahat bir şekilde problemlerini paylaşmalarını ve çözüm aramalarını sağlar.
-**Problem Paylaşma:** Kullanıcılar günlük hayatlarındaki problemlerini yazarak paylaşabilirler.
-**Çözüm Önerileri:** Kullanıcının problemlerine diğer kullanıcılar tarafından çözüm önerileri sunulur.
-**Puanlama Sistemi:** Kullanıcılar, çözüm önerilerine puan vererek katkıda bulunan kullanıcıları ödüllendirebilirler.
-**İtem Mağazası:** Kullanıcılar, puanlarını kullanarak avatarlarına özgün itemler satın alabilirler.
-**Sohbet Odaları:** Kullanıcılar, benzer itemlere sahip olan ve aynı seviyede olan diğer kullanıcılarla görüşebilirler.
+**Avatar Oluşturma:** Kullanıcılar, kendi avatarlarını yaratıcı ve nostaljik bir arayüzle oluşturabilirler.  
+**Anonimlik:** Anonim olma zorunluluğu, kullanıcıların rahat bir şekilde problemlerini paylaşmalarını ve çözüm aramalarını sağlar.  
+**Problem Paylaşma:** Kullanıcılar günlük hayatlarındaki problemlerini yazarak paylaşabilirler.  
+**Çözüm Önerileri:** Kullanıcının problemlerine diğer kullanıcılar tarafından çözüm önerileri sunulur.  
+**Puanlama Sistemi:** Kullanıcılar, çözüm önerilerine puan vererek katkıda bulunan kullanıcıları ödüllendirebilirler.  
+**İtem Mağazası:** Kullanıcılar, puanlarını kullanarak avatarlarına özgün itemler satın alabilirler.  
+**Sohbet Odaları:** Kullanıcılar, benzer itemlere sahip olan ve aynı seviyede olan diğer kullanıcılarla görüşebilirler.  
 ## **Hedef Kitle:** 
 Bu uygulama, günlük hayatlarında çeşitli problemlerle karşılaşan ve çözüm arayan herkesi hedeflemektedir. Kullanıcılar, problem paylaşma ve çözüm önerileri alarak sosyal etkileşimde bulunmak, farklı bakış açılarına maruz kalmak ve kişisel gelişimlerini desteklemek isteyenler için idealdir. Özellikle genç yetişkinler ve yetişkinler arasında ilgi çekeceği düşünülen bu uygulama, bir topluluk hissi yaratmayı ve kullanıcıların birbirlerine yardım ederken eğlenmelerini sağlamayı hedeflemektedir.
 
