@@ -13,7 +13,7 @@ class DetailsPage extends StatelessWidget {
           onPressed: () => Get.toNamed('/'),
           icon: const Icon(Icons.access_alarm_outlined),
         ),
-        title: const Text("Veri Çek"),
+        title: const Text("Details"),
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.center,

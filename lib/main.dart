@@ -2,15 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:oua_bootcamp/app/binding/initial/initial_binding.dart';
 import 'package:oua_bootcamp/app/routes/app_pages.dart';
-// import 'package:oua_bootcamp/app/translations/app_translations.dart';
-import 'app/ui/theme/app_theme.dart';
+import 'app/theme/app_theme.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(
     GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: Routes.DETAILS,
+      initialRoute: Routes.INITIAL,
       initialBinding: InitialBinding(),
       theme: appThemeData,
       defaultTransition: Transition.fade,
@@ -20,3 +19,4 @@ void main() {
     ),
   );
 }
+
