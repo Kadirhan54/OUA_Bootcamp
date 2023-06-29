@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:oua_bootcamp/app/data/models/model.dart';
+import 'package:oua_bootcamp/app/data/models/post_model.dart';
 import 'package:oua_bootcamp/app/data/client/api_client.dart';
 
 class MyRepository {

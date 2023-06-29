@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:oua_bootcamp/app/data/models/model.dart';
+import 'package:oua_bootcamp/app/data/models/post_model.dart';
 import 'package:http/http.dart' as http;
 import 'package:oua_bootcamp/app/data/client/api_constants.dart';
 

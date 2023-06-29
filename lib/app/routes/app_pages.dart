@@ -1,16 +1,17 @@
 import 'package:get/get.dart';
-import 'package:oua_bootcamp/app/binding/main/main_binding.dart';
-import 'package:oua_bootcamp/app/binding/page_bindings/add_binding.dart';
-import 'package:oua_bootcamp/app/binding/page_bindings/chat_binding.dart';
-import 'package:oua_bootcamp/app/binding/page_bindings/discover_binding.dart';
-import 'package:oua_bootcamp/app/binding/page_bindings/home_binding.dart';
-import 'package:oua_bootcamp/app/binding/page_bindings/profile_binding.dart';
-import 'package:oua_bootcamp/app/ui/add/add_page.dart';
-import 'package:oua_bootcamp/app/ui/chat/chat_page.dart';
-import 'package:oua_bootcamp/app/ui/discover/discover_page.dart';
-import 'package:oua_bootcamp/app/ui/home/home_page.dart';
-import 'package:oua_bootcamp/app/ui/main/main_page.dart';
-import 'package:oua_bootcamp/app/ui/profile/profile_page.dart';
+import 'package:oua_bootcamp/app/modules/home/views/post_view/post_view.dart';
+import 'package:oua_bootcamp/app/modules/main/binding/main_binding.dart';
+import 'package:oua_bootcamp/app/modules/add/binding/add_binding.dart';
+import 'package:oua_bootcamp/app/modules/chat/binding/chat_binding.dart';
+import 'package:oua_bootcamp/app/modules/discover/binding/discover_binding.dart';
+import 'package:oua_bootcamp/app/modules/home/binding/home_binding.dart';
+import 'package:oua_bootcamp/app/modules/profile/binding/profile_binding.dart';
+import 'package:oua_bootcamp/app/modules/add/ui/add_page.dart';
+import 'package:oua_bootcamp/app/modules/chat/ui/chat_page.dart';
+import 'package:oua_bootcamp/app/modules/discover/ui/discover_page.dart';
+import 'package:oua_bootcamp/app/modules/home/ui/home_page.dart';
+import 'package:oua_bootcamp/app/modules/main/ui/main_page.dart';
+import 'package:oua_bootcamp/app/modules/profile/ui/profile_page.dart';
 part './app_routes.dart';
 
 class AppPages {
@@ -37,5 +38,9 @@ class AppPages {
         name: Routes.PROFILE,
         page: () => const ProfilePage(),
         binding: ProfileBinding()),
+    GetPage(
+        name: Routes.HOME_POST_VIEW,
+        page: () => const PostView(),
+        ),
   ];
 }
