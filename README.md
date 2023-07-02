@@ -46,14 +46,17 @@ Bu uygulama, günlük hayatlarında çeşitli problemlerle karşılaşan ve çö
 
 * * *
 # **Sprint 2**  
-**• Sprint Notları:**  
-**• Sprint içinde tamamlanması tahmin edilen puan:**    
-**• Puan tamamlama mantığı:**  
+**• Sprint Notları:**2. sprint sonu bayram tatiline denk gelmiştir. Bu yüzden spirnt buluşmaları hedeflediğimizin altında kaldı. WhatsApp üzerinden ürünün durumu ve geliştirilmesi hakkında iletişim kurmaya devam ettik.  
+**• Sprint içinde tamamlanması tahmin edilen puan:** 100   
+**• Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint 70 puan ile başlamıştı. Bayram yoğunluğundan dolayı bu sprintin 100 ile başlamasına karar verilmiştir. Böylece 3. sprinte 130 puanlık backlog kalmıştır.
 **• Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats]  
 **• Sprint Board Update:**  
 **• Sprint Review:**  
 **• Sprint  Review Katılımcıları:** Batuhan Arslaner, Kadirhan Sağlam, Nilsu Sevinçli, Selin Berçin, Şevval Bilkay  
 **• Sprint Retrospective:**   
+✧
+✧
+✧
 * * *
 A new Flutter project.
 
