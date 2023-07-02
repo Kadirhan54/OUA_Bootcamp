@@ -45,6 +45,16 @@ Bu uygulama, günlük hayatlarında çeşitli problemlerle karşılaşan ve çö
 ✧ Görevleri, gelişmeleri ve tarihleri daha net takip edebilmek için proje yönetimi kısmına da ağırlık verilmesine, daha çok görsel kullanılmasına karar verildi.   
 
 * * *
+# **Sprint 2**  
+**• Sprint Notları:**  
+**• Sprint içinde tamamlanması tahmin edilen puan:**    
+**• Puan tamamlama mantığı:**  
+**• Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats]  
+**• Sprint Board Update:**  
+**• Sprint Review:**  
+**• Sprint  Review Katılımcıları:** Batuhan Arslaner, Kadirhan Sağlam, Nilsu Sevinçli, Selin Berçin, Şevval Bilkay  
+**• Sprint Retrospective:**   
+* * *
 A new Flutter project.
 
 ## Getting Started
