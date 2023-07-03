@@ -46,22 +46,24 @@ Bu uygulama, günlük hayatlarında çeşitli problemlerle karşılaşan ve çö
 
 * * *
 # **Sprint 2**  
-**• Sprint Notları:** 2. sprint sonu bayram tatiline denk gelmiştir. Bu yüzden spirnt buluşmaları hedeflediğimizin altında kaldı. WhatsApp üzerinden ürünün durumu ve geliştirilmesi hakkında iletişim kurmaya devam ettik.  
+**• Sprint Notları:** 2. sprint sonu bayram tatiline denk gelmiştir. Bu yüzden sprint buluşmaları hedeflediğimizin altında kaldı. WhatsApp üzerinden ürünün durumu ve geliştirilmesi hakkında iletişim kurmaya devam ettik.  
 **• Sprint içinde tamamlanması tahmin edilen puan:** 100   
-**• Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint 70 puan ile başlamıştı. Bayram yoğunluğundan dolayı bu sprintin 100 ile başlamasına karar verilmiştir. Böylece 3. sprinte 130 puanlık backlog kalmıştır.  
-**• Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats] (https://stdyildizedu-my.sharepoint.com/personal/selin_bercin_std_yildiz_edu_tr/_layouts/15/doc.aspx?sourcedoc={212fd79e-a24a-4838-9a85-e3f915d4ef40}&action=edit)  
+**• Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 3 sprinte bölündüğünde ilk sprint 70 puan ile başlamıştı. Bayram yoğunluğundan dolayı bu sprintin 100 ile başlamasına karar verilmiştir. Böylece 3. sprinte 130 puanlık backlog kalmıştır.  
+**• Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats](https://stdyildizedu-my.sharepoint.com/personal/selin_bercin_std_yildiz_edu_tr/_layouts/15/doc.aspx?sourcedoc={212fd79e-a24a-4838-9a85-e3f915d4ef40}&action=edit)  
 **• Sprint Board Update:** ![Ekran görüntüsü 2023-07-03 092833](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/d3642886-f128-4f22-8930-53c227d29354)  
 ![Ekran görüntüsü 2023-07-03 093011](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/44d33e40-87a3-4882-91d3-194efbd5d279) 
+
 **• Ürün Durumu:** ![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/3a519d10-206a-4acd-b0c0-64a3c46d1b77)  
 ![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/4b5475cc-236b-4910-859c-f4e9a15872ea)  
 ![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/b757e655-cc7a-404a-99d2-b48848de430a)  
 ![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/33ee0a58-57ef-43f5-8ed6-4f2847036da9)  
+
 **• Sprint Review:** 2. sprintte ekip olarak belirlediğimiz ekranların geliştirilmesi üzerine yoğunlaşıldı. Planlanan ekranların bir kısmı geliştirildi. Ayrıca uygulamanın daha ilgi çekici olması adına uygulamaya Metaverse entegrasyonu gibi fikirler düşünüldü. 
 Ekşi sözlük, şikayetimvar.com, kızlarsoruyor gibi sitelerin kullanıcıları ile görüşmeler yapıldı. Yapılan görüşmeler sonucu onları bu siteleri kullanmaya iten faktörler tespit edildi. Gelen geri bildirimler sonucu iç görüler edinilerek süreç tasarımı geliştirildi. Ayrıca uygulamanın tasarımı üzerine daha çok yoğunlaşılması kararlaştırıldı. Kısacası 2. sprintin sonu bayrama denk gelmesine rağmen hedeflere çoğunlukla ulaşıldı, kalan planlarınsa son sprintte tüm ekibin yüksek motivasyonu ile birlikte tamamlanmasına karar verildi.  
 **• Sprint  Review Katılımcıları:** Batuhan Arslaner, Kadirhan Sağlam, Nilsu Sevinçli, Selin Berçin, Şevval Bilkay  
 **• Sprint Retrospective:**     
 ✧ Bootcamp sürecinin bitmesine az bir zaman kaldığı için son sprintte tüm ekibin en yüksek verimle çalışmalara devam etmesi kararlaştırıldı.  
-✧ Özellikle sprint başı ve sonunda ekip içi iletişim oldukça aktif olması gerekli. Buna son sprintte dikkat edilecek.  
+✧ Özellikle sprint başı ve sonunda ekip içi iletişimin oldukça aktif olması gerekli. Buna son sprintte dikkat edilecek.  
 ✧ Developerlar arasındaki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.  
 * * *
 A new Flutter project.
