@@ -66,6 +66,21 @@ Ekşi sözlük, şikayetimvar.com, kızlarsoruyor gibi sitelerin kullanıcılar�
 ✧ Özellikle sprint başı ve sonunda ekip içi iletişimin oldukça aktif olması gerekli. Buna son sprintte dikkat edilecek.  
 ✧ Developerlar arasındaki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.  
 * * *
+# **Sprint 3**  
+**• Sprint Notları:**  
+**• Sprint içinde tamamlanması tahmin edilen puan:** 130  
+**• Puan tamamlama mantığı:**  
+**• Sprint Board Update:**  
+
+**• Ürün Durumu:**  
+
+**• Sprint Review:**  
+**• Sprint  Review Katılımcıları:** Batuhan Arslaner, Kadirhan Sağlam, Nilsu Sevinçli, Selin Berçin, Şevval Bilkay  
+**• Sprint Retrospective:**       
+✧  
+✧  
+✧  
+* * *
 A new Flutter project.
 
 ## Getting Started
