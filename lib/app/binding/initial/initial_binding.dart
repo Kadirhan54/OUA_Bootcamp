@@ -1,5 +1,4 @@
 import 'package:get/get.dart';
-import 'package:oua_bootcamp/app/modules/auth/binding/auth_binding.dart';
 import 'package:oua_bootcamp/app/binding/remote/api_client_binding.dart';
 import 'package:oua_bootcamp/app/modules/dashboard/dashboard_binding.dart';
 
@@ -7,7 +6,6 @@ class InitialBinding implements Bindings {
   @override
   void dependencies() {
     ApiClientBinding().dependencies();
-    AuthBinding().dependencies();
     DashboardBinding().dependencies();
   }
 

@@ -50,7 +50,11 @@ class HomePage extends StatelessWidget {
                           title: Text(controller.liste[index]['title']),
                           leading:
                               // Text("User :${controller.liste[index]['userId']}"),
-                              const CircleAvatar(backgroundColor: Colors.green),
+                              CircleAvatar(
+                            backgroundColor: Colors.white,
+                            child: Image.network(
+                                'https://api.dicebear.com/6.x/adventurer/png?seed=${Random().nextInt(500)}'),
+                          ),
                           trailing:
                               // const Icon(CupertinoIcons.person),
                               Text(Random().nextInt(100).toString()),

@@ -2,7 +2,10 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:oua_bootcamp/app/modules/avatar/avatar_page.dart';
+import 'package:oua_bootcamp/app/modules/dashboard/dashboard_controller.dart';
 import 'package:oua_bootcamp/app/modules/home/home_controller.dart';
+import 'package:oua_bootcamp/app/modules/profile/profile_controller.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({Key? key}) : super(key: key);
@@ -31,36 +34,62 @@ class ProfilePage extends StatelessWidget {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const SizedBox(
+          SizedBox(
             height: 250,
             child: Padding(
-              padding: EdgeInsets.all(16),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                mainAxisAlignment: MainAxisAlignment.center,
+              padding: const EdgeInsets.all(16),
+              child: Row(
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  const Column(
                     children: [
+                      SizedBox(
+                        height: 50,
+                      ),
                       Text(
                         'kadosama',
                         style: TextStyle(
                             fontWeight: FontWeight.bold, fontSize: 20),
                       ),
-                      CircleAvatar(
-                        backgroundColor: Colors.green,
-                        radius: 50,
+                      SizedBox(
+                        height: 10,
                       ),
+                      Text('caylak', style: TextStyle(color: Colors.green)),
+                      SizedBox(
+                        height: 75,
+                      ),
+                      Text('15 Entry  -  2 Follower  -  1 Following'),
                     ],
                   ),
-                  SizedBox(
-                    height: 10,
-                  ),
-                  Text('caylak', style: TextStyle(color: Colors.green)),
-                  SizedBox(
-                    height: 30,
-                  ),
-                  Text('15 Entry  -  2 Follower  -  1 Following'),
+                  GetBuilder<ProfileController>(builder: (controller) {
+                    return Column(
+                      children: [
+                        const SizedBox(
+                          height: 20,
+                        ),
+                        Image.network(
+                          controller.avatarUrl.value ?? '',
+                          height: 100,
+                        ),
+                        SizedBox(
+                          height: 25,
+                          width: 90,
+                          child: OutlinedButton(
+                            onPressed: () {
+                              Get.to(() => const AvatarPage());
+                            },
+                            style: ButtonStyle(
+                              backgroundColor: MaterialStatePropertyAll<Color>(
+                                  Colors.blueGrey.withOpacity(0.9)),
+                            ),
+                            child: const Text(
+                              'Change',
+                              style: TextStyle(color: Colors.black),
+                            ),
+                          ),
+                        )
+                      ],
+                    );
+                  }),
                 ],
               ),
             ),

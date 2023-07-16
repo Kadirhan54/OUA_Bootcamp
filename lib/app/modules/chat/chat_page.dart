@@ -1,6 +1,5 @@
 import 'dart:math';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:oua_bootcamp/app/modules/home/home_controller.dart';
@@ -11,10 +10,6 @@ class ChatPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        child: const Icon(CupertinoIcons.chat_bubble_2_fill),
-      ),
       appBar: AppBar(
         title: const Text('Messages'),
         actions: const [
@@ -40,7 +35,11 @@ class ChatPage extends StatelessWidget {
               title: const Text('Kadirhan Sağlam'),
               leading:
                   // Text("User :${controller.liste[index]['userId']}"),
-                  const CircleAvatar(backgroundColor: Colors.blue),
+                  CircleAvatar(
+                backgroundColor: Colors.white,
+                child: Image.network(
+                    'https://api.dicebear.com/6.x/adventurer/png?seed=${Random().nextInt(500)}'),
+              ),
               trailing: Text('${Random().nextInt(24)}:${Random().nextInt(59)}'),
               subtitle: const Text('Try to set overflow property'),
             ),
@@ -49,7 +48,11 @@ class ChatPage extends StatelessWidget {
               title: const Text('Selin Berçin'),
               leading:
                   // Text("User :${controller.liste[index]['userId']}"),
-                  const CircleAvatar(backgroundColor: Colors.purple),
+                  CircleAvatar(
+                backgroundColor: Colors.white,
+                child: Image.network(
+                    'https://api.dicebear.com/6.x/adventurer/png?seed=${Random().nextInt(500)}'),
+              ),
               trailing: Text('${Random().nextInt(24)}:${Random().nextInt(59)}'),
               subtitle: const Text('Adding more to the above-selected answer'),
             ),
@@ -58,7 +61,11 @@ class ChatPage extends StatelessWidget {
               title: const Text('Nilsu Sevinçli'),
               leading:
                   // Text("User :${controller.liste[index]['userId']}"),
-                  const CircleAvatar(backgroundColor: Colors.green),
+                  CircleAvatar(
+                backgroundColor: Colors.white,
+                child: Image.network(
+                    'https://api.dicebear.com/6.x/adventurer/png?seed=${Random().nextInt(500)}'),
+              ),
               trailing: Text('${Random().nextInt(24)}:${Random().nextInt(59)}'),
               subtitle: const Text('There"s no need of using RichText'),
             ),

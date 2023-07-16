@@ -10,6 +10,17 @@ class MyApiClient {
   final baseUrl = ApiConstants.baseUrl;
   var client = http.Client();
 
+
+
+
+
+
+
+
+
+
+  
+
   Future<DynamicList> getAllPosts() async {
     var response = await http.get(Uri.parse('$baseUrl/posts'));
 

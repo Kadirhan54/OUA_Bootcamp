@@ -4,7 +4,7 @@ class UserData {
   final String? id;
   final String? name;
   final String? email;
-  final String? photourl;
+  final String? avatarUrl;
   final String? location;
   final String? fcmtoken;
   final Timestamp? addtime;
@@ -13,7 +13,7 @@ class UserData {
     this.id,
     this.name,
     this.email,
-    this.photourl,
+    this.avatarUrl,
     this.location,
     this.fcmtoken,
     this.addtime,
@@ -28,7 +28,7 @@ class UserData {
       id: data?['id'],
       name: data?['name'],
       email: data?['email'],
-      photourl: data?['photourl'],
+      avatarUrl: data?['avatarUrl'],
       location: data?['location'],
       fcmtoken: data?['fcmtoken'],
       addtime: data?['addtime'],
@@ -40,7 +40,7 @@ class UserData {
       if (id != null) "id": id,
       if (name != null) "name": name,
       if (email != null) "email": email,
-      if (photourl != null) "photourl": photourl,
+      if (avatarUrl != null) "avatarUrl": avatarUrl,
       if (location != null) "location": location,
       if (fcmtoken != null) "fcmtoken": fcmtoken,
       if (addtime != null) "addtime": addtime,
@@ -53,13 +53,13 @@ class UserLoginResponseEntity {
   String? accessToken;
   String? displayName;
   String? email;
-  String? photoUrl;
+  String? avatarUrl;
 
   UserLoginResponseEntity({
     this.accessToken,
     this.displayName,
     this.email,
-    this.photoUrl,
+    this.avatarUrl,
   });
 
   factory UserLoginResponseEntity.fromJson(Map<String, dynamic> json) =>
@@ -67,14 +67,14 @@ class UserLoginResponseEntity {
         accessToken: json["access_token"],
         displayName: json["display_name"],
         email: json["email"],
-        photoUrl: json["photoUrl"],
+        avatarUrl: json["avatarUrl"],
       );
 
   Map<String, dynamic> toJson() => {
         "access_token": accessToken,
         "display_name": displayName,
         "email": email,
-        "photoUrl": photoUrl,
+        "avatarUrl": avatarUrl,
       };
 }
 

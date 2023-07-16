@@ -1,5 +1,7 @@
 // ignore_for_file: no_leading_underscores_for_local_identifiers
 
+import 'dart:math';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
@@ -32,14 +34,15 @@ class SigInController extends GetxController {
         String displayName = user.displayName ?? user.email;
         String email = user.email;
         String id = user.id;
-        String photoUrl = user.photoUrl ?? "";
+        String avatarUrl =
+            'https://api.dicebear.com/6.x/adventurer/png?seed=${Random().nextInt(500)}';
 
         UserLoginResponseEntity userProfile = UserLoginResponseEntity();
 
         userProfile.email = email;
         userProfile.accessToken = id;
         userProfile.displayName = displayName;
-        userProfile.photoUrl = photoUrl;
+        userProfile.avatarUrl = avatarUrl;
 
         UserStore.to.saveProfile(userProfile);
 
@@ -58,7 +61,7 @@ class SigInController extends GetxController {
               id: id,
               name: displayName,
               email: email,
-              photourl: photoUrl,
+              avatarUrl: avatarUrl,
               location: '',
               fcmtoken: '',
               addtime: Timestamp.now());
