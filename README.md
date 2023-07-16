@@ -25,7 +25,7 @@ Bu uygulama, kullanıcıların günlük hayatlarında karşılaştıkları probl
 ## **Hedef Kitle:** 
 Bu uygulama, günlük hayatlarında çeşitli problemlerle karşılaşan ve çözüm arayan herkesi hedeflemektedir. Kullanıcılar, problem paylaşma ve çözüm önerileri alarak sosyal etkileşimde bulunmak, farklı bakış açılarına maruz kalmak ve kişisel gelişimlerini desteklemek isteyenler için idealdir. Özellikle genç yetişkinler ve yetişkinler arasında ilgi çekeceği düşünülen bu uygulama, bir topluluk hissi yaratmayı ve kullanıcıların birbirlerine yardım ederken eğlenmelerini sağlamayı hedeflemektedir.  
 ## **Product Backlog URL:** 
-[Asana Backlog Board_ Sprint2](https://app.asana.com/0/1204770782264648/board)  
+[Asana Backlog Board_ Sprint3](https://app.asana.com/0/1204770782264648/board)  
 
 * * * 
 # **Sprint 1**
@@ -65,6 +65,27 @@ Ekşi sözlük, şikayetimvar.com, kızlarsoruyor gibi sitelerin kullanıcılar�
 ✧ Bootcamp sürecinin bitmesine az bir zaman kaldığı için son sprintte tüm ekibin en yüksek verimle çalışmalara devam etmesi kararlaştırıldı.  
 ✧ Özellikle sprint başı ve sonunda ekip içi iletişimin oldukça aktif olması gerekli. Buna son sprintte dikkat edilecek.  
 ✧ Developerlar arasındaki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.  
+* * *
+# **Sprint 3**  
+**• Sprint Notları:** Son sprintimiz ve yapılacak işin çok olmasından dolayı ekipçe sık sık toplanmaya gayret gösterdik. Asana premium üyeliğimizin süresi dolduğu için programın bazı özelliklerini kullanamadık ama sürecin bitmesine az kaldığı için farklı bir programa geçmedik. (Backlog puanlarını, backlogların üzerlerine tıklayarak açıklama kısmından görebilirsiniz.)  
+**• Sprint içinde tamamlanması tahmin edilen puan:** 130   
+**• Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 1. sprint 70, 2. sprint 100 puandı. 3. sprinte ise 130 puanlık backlog kaldı.  
+**• Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats](https://stdyildizedu-my.sharepoint.com/:w:/g/personal/selin_bercin_std_yildiz_edu_tr/EZfKkMugIx1Nqm4S0bmZ84YBT7Vr60ajTUTqcTljzKPCnw?e=WtHD2a)  
+**• Sprint Board Update:**  
+
+
+**• Ürün Durumu:**  
+
+**• Sprint Review:**  3. sprintte elimizden geldiğince uygulamamızı planladığımız şekilde bitirmeye çalıştık. Uzun bir süreçte olmamızdan dolayı zaman zaman motivasyon düşüklükleri olsa da ekipçe bu durumu halletmeye çalıştık. Birbirimizle iletişimde kalarak çalışmalarımıza odaklandık. Uygulamamızın logosunu ve temasını tasarladık. Avatar kısmını uygulamaya eklemeye çalışsak da bilgimiz dışında bir konu olduğundan dolayı yetişmedi. Ürün tanıtım videosunu çektik. Ve uygulamanın hazır hale gelmesi için tüm son detayları ekledik.  
+**• Sprint  Review Katılımcıları:** Kadirhan Sağlam, Nilsu Sevinçli, Selin Berçin, Şevval Bilkay  
+**• Sprint Retrospective:**       
+✧  Takım olarak Bootcamp sürecine çok motive başlamıştık ama araya sürekli başka durumlar (finaller, bayram, tatil vb.) girdiği için kopukluklar yaşadık. Bu kopukluğu düzeltip tekrardan tempoya alışmak bize oldukça vakit kaybettirdi ve motivasyonumuzu zedeledi.  
+✧  Uygulama geliştirme kısmında görev dağılımını detaylı ve eşit yapamadık. Bundan dolayı da bazı kişilere çok fazla görev yükü kaldı.  
+✧  Gerekli zamanı vermediğimiz için planlanan özelliklerin bir kısmını hayata geçiremedik. Tasarım kısmına yoğunlaşılmadığından dolayı sönük kaldı.  
+✧ Ama her şeye rağmen ekip olarak birbirimize olan saygıyı koruduğumuz çok güzel bir Bootcamp dönemi geçirdik. Arada kopukluklar yaşasak da herkes elinden gelen desteği verdi. Hepimiz için farklı bir deneyimdi ve yaşadıklarımızdan çok güzel tecrübeler kazandık. 
+
+Son olarak tüm eğitim ve Bootcamp süreci boyunca desteklerini bursiyerlerden esirgemeyen Oyun ve Uygulama Akademisi'ne her şey için teşekkür ederiz.🤍   -F114   
+
 * * *
 A new Flutter project.
 
