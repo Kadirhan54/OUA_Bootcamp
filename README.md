@@ -70,7 +70,7 @@ Ekşi sözlük, şikayetimvar.com, kızlarsoruyor gibi sitelerin kullanıcılar�
 **• Sprint Notları:** Son sprintimiz ve yapılacak işin çok olmasından dolayı ekipçe sık sık toplanmaya gayret gösterdik. Asana premium üyeliğimizin süresi dolduğu için programın bazı özelliklerini kullanamadık ama sürecin bitmesine az kaldığı için farklı bir programa geçmedik. (Backlog puanlarını, backlogların üzerlerine tıklayarak açıklama kısmından görebilirsiniz.)  
 **• Sprint içinde tamamlanması tahmin edilen puan:** 130   
 **• Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 1. sprint 70, 2. sprint 100 puandı. 3. sprinte ise 130 puanlık backlog kaldı.  
-**• Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats](https://stdyildizedu-my.sharepoint.com/:w:/g/personal/selin_bercin_std_yildiz_edu_tr/EZfKkMugIx1Nqm4S0bmZ84YBif1FmmUnSslZRJOV1zmayw?e=oaWvxE)  
+**• Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats](https://stdyildizedu-my.sharepoint.com/:w:/g/personal/selin_bercin_std_yildiz_edu_tr/EZfKkMugIx1Nqm4S0bmZ84YBT7Vr60ajTUTqcTljzKPCnw?e=WtHD2a)  
 **• Sprint Board Update:**  
 
 
