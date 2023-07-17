@@ -71,11 +71,17 @@ Ekşi sözlük, şikayetimvar.com, kızlarsoruyor gibi sitelerin kullanıcılar�
 **• Sprint içinde tamamlanması tahmin edilen puan:** 130   
 **• Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 1. sprint 70, 2. sprint 100 puandı. 3. sprinte ise 130 puanlık backlog kaldı.  
 **• Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats](https://stdyildizedu-my.sharepoint.com/:w:/g/personal/selin_bercin_std_yildiz_edu_tr/EZfKkMugIx1Nqm4S0bmZ84YBT7Vr60ajTUTqcTljzKPCnw?e=WtHD2a)  
-**• Sprint Board Update:**  
-
-
-**• Ürün Durumu:**  
-
+**• Sprint Board Update:**  ![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/573ca738-0514-4c66-8a8e-97ca8f75a5e4)  
+![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/1d5ff6f9-08b1-42e6-aefe-d22c84134b7d)  
+![Ekran görüntüsü 2023-07-17 100112](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/9e01e0ea-78a7-4df8-9235-133b53392bf7)  
+**• Ürün Durumu:**  ![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/0635ddc1-4612-4edf-823f-a4aab7728ee7)  
+![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/8d45599a-91d4-4928-8556-a83adcf511c9)  
+![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/3387b0d4-ed1f-460d-84b3-3a1d14026ab8)  
+![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/8faa4b07-9356-4337-9b08-a8abd8fac4e3)  
+![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/cc5a1477-c771-4e14-8b9f-8aa5d0ddddce)  
+![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/c7b2c3ad-7419-4f44-aa3d-1453f589aad5)  
+![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/7c12f770-f212-4b80-8034-ed3f2d0b52a7)  
+![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/aa08e6db-563e-4011-8ab0-c0c55ca30bf9)  
 **• Sprint Review:**  3. sprintte elimizden geldiğince uygulamamızı planladığımız şekilde bitirmeye çalıştık. Uzun bir süreçte olmamızdan dolayı zaman zaman motivasyon düşüklükleri olsa da ekipçe bu durumu halletmeye çalıştık. Birbirimizle iletişimde kalarak çalışmalarımıza odaklandık. Uygulamamızın logosunu ve temasını tasarladık. Avatar kısmını uygulamaya eklemeye çalışsak da bilgimiz dışında bir konu olduğundan dolayı yetişmedi. Ürün tanıtım videosunu çektik. Ve uygulamanın hazır hale gelmesi için tüm son detayları ekledik.  
 **• Sprint  Review Katılımcıları:** Kadirhan Sağlam, Nilsu Sevinçli, Selin Berçin, Şevval Bilkay  
 **• Sprint Retrospective:**       
