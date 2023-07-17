@@ -71,8 +71,7 @@ Ekşi sözlük, şikayetimvar.com, kızlarsoruyor gibi sitelerin kullanıcılar�
 **• Sprint içinde tamamlanması tahmin edilen puan:** 130   
 **• Puan tamamlama mantığı:** Toplamda proje boyunca tamamlanması gereken 300 puanlık backlog bulunmaktadır. 1. sprint 70, 2. sprint 100 puandı. 3. sprinte ise 130 puanlık backlog kaldı.  
 **• Daily Scrum:** Daily Scrum toplantılarının zamansal sebeplerden ötürü WhatsApp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Daily Scrum Chats](https://stdyildizedu-my.sharepoint.com/:w:/g/personal/selin_bercin_std_yildiz_edu_tr/EZfKkMugIx1Nqm4S0bmZ84YBT7Vr60ajTUTqcTljzKPCnw?e=WtHD2a)  
-**• Sprint Board Update:**  ![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/573ca738-0514-4c66-8a8e-97ca8f75a5e4)  
-![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/1d5ff6f9-08b1-42e6-aefe-d22c84134b7d)  
+**• Sprint Board Update:** ![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/1d5ff6f9-08b1-42e6-aefe-d22c84134b7d)    
 ![Ekran görüntüsü 2023-07-17 100112](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/9e01e0ea-78a7-4df8-9235-133b53392bf7)  
 **• Ürün Durumu:**  ![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/0635ddc1-4612-4edf-823f-a4aab7728ee7)  
 ![image](https://github.com/Kadirhan54/OUA_Bootcamp/assets/135705916/8d45599a-91d4-4928-8556-a83adcf511c9)  
