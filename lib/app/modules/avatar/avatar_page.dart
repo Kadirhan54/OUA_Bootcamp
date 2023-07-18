@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:oua_bootcamp/app/modules/avatar/avatar_controller.dart';
-import 'package:oua_bootcamp/app/modules/dashboard/dashboard_controller.dart';
 
 class AvatarPage extends GetView<AvatarController> {
   const AvatarPage({Key? key}) : super(key: key);
@@ -32,13 +31,14 @@ class AvatarPage extends GetView<AvatarController> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              CircleAvatar(backgroundColor: Colors.grey,
+              CircleAvatar(
+                backgroundColor: Colors.grey,
                 radius: 120,
                 backgroundImage: NetworkImage(
                   controller.avatarUrl.toString(),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
               OutlinedButton(
@@ -52,7 +52,7 @@ class AvatarPage extends GetView<AvatarController> {
                   style: TextStyle(color: Colors.black),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 10,
               ),
               OutlinedButton(
@@ -60,7 +60,7 @@ class AvatarPage extends GetView<AvatarController> {
                   Get.snackbar(
                       'Success', 'You Have Successfully Assigned an Avatar!');
                   Get.off(const AvatarPage());
-                  DashboardController.instance.changeTabIndex(0);
+                  controller.submitAvatar();
                 },
                 style: ButtonStyle(
                   backgroundColor: MaterialStatePropertyAll<Color>(

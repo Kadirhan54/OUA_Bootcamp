@@ -17,40 +17,6 @@ class DashboardController extends GetxController {
     update();
   }
 
-  @override
-  void onInit() {
-    super.onInit();
-    // tabTitles = ['Home', 'Discover', 'Add', 'Chat', 'Profile'];
-    // bottomTabs = <BottomNavigationBarItem>[
-    //   const BottomNavigationBarItem(
-    //       icon: Icon(
-    //         Icons.home,
-    //       ),
-    //       label: 'Home'),
-    //   const BottomNavigationBarItem(
-    //       icon: Icon(
-    //         Icons.search,
-    //       ),
-    //       label: 'Discover'),
-    //   const BottomNavigationBarItem(
-    //       icon: Icon(
-    //         Icons.chat,
-    //       ),
-    //       label: 'Chat'),
-    //   const BottomNavigationBarItem(
-    //       icon: Icon(
-    //         Icons.add,
-    //       ),
-    //       label: 'Add'),
-    //   const BottomNavigationBarItem(
-    //       icon: Icon(
-    //         Icons.people,
-    //       ),
-    //       label: 'Profile'),
-    // ];
-
-    // pageController = PageController(initialPage: tabIndex);
-  }
 
   @override
   void dispose() {

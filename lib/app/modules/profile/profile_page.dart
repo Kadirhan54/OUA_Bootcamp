@@ -3,7 +3,6 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:oua_bootcamp/app/modules/avatar/avatar_page.dart';
-import 'package:oua_bootcamp/app/modules/dashboard/dashboard_controller.dart';
 import 'package:oua_bootcamp/app/modules/home/home_controller.dart';
 import 'package:oua_bootcamp/app/modules/profile/profile_controller.dart';
 

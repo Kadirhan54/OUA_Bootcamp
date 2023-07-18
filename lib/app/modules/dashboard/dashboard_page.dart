@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:oua_bootcamp/app/modules/add/add_page.dart';
-import 'package:oua_bootcamp/app/modules/chat/chat_page.dart';
+import 'package:oua_bootcamp/app/modules/contact/contact_page.dart';
 import 'package:oua_bootcamp/app/modules/dashboard/dashboard_controller.dart';
 import 'package:oua_bootcamp/app/modules/discover/discover_page.dart';
 import 'package:oua_bootcamp/app/modules/home/home_page.dart';
@@ -21,7 +21,7 @@ class DashboardPage extends StatelessWidget {
             HomePage(),
             DiscoverPage(),
             AddPage(),
-            ChatPage(),
+            ContactPage(),
             ProfilePage(),
           ],
         ),

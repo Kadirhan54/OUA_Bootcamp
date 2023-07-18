@@ -1,9 +1,12 @@
 import 'package:get/get.dart';
+import 'package:oua_bootcamp/app/modules/chat/chat_binding.dart';
+import 'package:oua_bootcamp/app/modules/chat/chat_page.dart';
 import 'package:oua_bootcamp/app/modules/dashboard/dashboard_binding.dart';
 import 'package:oua_bootcamp/app/modules/dashboard/dashboard_page.dart';
-import 'package:oua_bootcamp/app/modules/home/post_view.dart';
+import 'package:oua_bootcamp/app/post/post_page.dart';
 import 'package:oua_bootcamp/app/modules/sign_in/sign_in_binding.dart';
 import 'package:oua_bootcamp/app/modules/sign_in/sign_in_page.dart';
+import 'package:oua_bootcamp/app/post/post_page_binding.dart';
 // import 'package:oua_bootcamp/app/modules/add/binding/add_binding.dart';
 // import 'package:oua_bootcamp/app/modules/chat/binding/chat_binding.dart';
 // import 'package:oua_bootcamp/app/modules/discover/binding/discover_binding.dart';
@@ -26,6 +29,16 @@ class AppPages {
         name: Routes.SIGNIN,
         page: () => const SigInPage(),
         binding: SigInBinding()),
+
+    GetPage(
+        name: Routes.CHAT,
+        page: () => const ChatPage(),
+        binding: ChatBinding()),
+    GetPage(
+      name: Routes.POST,
+      page: () => const PostPage(),
+      binding: PostPageBinding(),
+    ),
     // GetPage(
     //     name: Routes.HOME,
     //     page: () => const HomePage(),
@@ -44,9 +57,5 @@ class AppPages {
     //     name: Routes.PROFILE,
     //     page: () => const ProfilePage(),
     //     binding: ProfileBinding()),
-    GetPage(
-      name: Routes.HOME_POST_VIEW,
-      page: () => const PostView(),
-    ),
   ];
 }

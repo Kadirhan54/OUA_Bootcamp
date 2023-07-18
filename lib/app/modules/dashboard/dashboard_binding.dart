@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
 import 'package:oua_bootcamp/app/modules/add/add_controller.dart';
 import 'package:oua_bootcamp/app/modules/avatar/avatar_controller.dart';
-import 'package:oua_bootcamp/app/modules/chat/chat_controller.dart';
+import 'package:oua_bootcamp/app/modules/contact/contact_controller.dart';
 import 'package:oua_bootcamp/app/modules/dashboard/dashboard_controller.dart';
 import 'package:oua_bootcamp/app/modules/discover/discover_controller.dart';
 import 'package:oua_bootcamp/app/modules/home/home_controller.dart';
@@ -22,8 +22,8 @@ class DashboardBinding implements Bindings {
     Get.lazyPut<AddController>(
       () => AddController(),
     );
-    Get.lazyPut<ChatController>(
-      () => ChatController(),
+    Get.lazyPut<ContactController>(
+      () => ContactController(),
     );
     Get.lazyPut<ProfileController>(
       () => ProfileController(),

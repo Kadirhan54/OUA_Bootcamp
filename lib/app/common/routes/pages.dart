@@ -1,6 +1,5 @@
 
 import 'package:flutter/material.dart';
-import 'package:oua_bootcamp/app/common/middlewares/middlewares.dart';
 
 import 'package:get/get.dart';
 

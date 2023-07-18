@@ -1,10 +1,6 @@
-import 'dart:math';
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:oua_bootcamp/app/modules/home/home_controller.dart';
-import 'package:oua_bootcamp/app/modules/home/post_view.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -36,30 +32,32 @@ class HomePage extends StatelessWidget {
             GetBuilder<HomeController>(
               // init: HomeController(),
               builder: (controller) {
-                if (controller.isLoading.value) {
+                if (HomeController.instance.isLoading.value) {
                   return const Center(
                     child: CircularProgressIndicator(),
                   );
                 } else {
                   return Expanded(
                     child: ListView.separated(
-                      itemCount: HomeController.instance.liste.length,
+                      itemCount: HomeController.instance.postList.length,
                       shrinkWrap: true,
                       itemBuilder: (context, index) {
                         return ListTile(
-                          title: Text(controller.liste[index]['title']),
-                          leading:
-                              // Text("User :${controller.liste[index]['userId']}"),
-                              CircleAvatar(
+                          title:
+                              Text(controller.postList[index].title.toString()),
+                          leading: CircleAvatar(
                             backgroundColor: Colors.white,
-                            child: Image.network(
-                                'https://api.dicebear.com/6.x/adventurer/png?seed=${Random().nextInt(500)}'),
+                            child: Image.network(controller
+                                .postList[index].owner_avatarUrl
+                                .toString()),
                           ),
                           trailing:
                               // const Icon(CupertinoIcons.person),
-                              Text(Random().nextInt(100).toString()),
-                          subtitle: Text(controller.liste[index]['body']),
-                          onTap: () => Get.to(() => const PostView()),
+                              Text(controller.postList[index].like_count
+                                  .toString()),
+                          subtitle:
+                              Text(controller.postList[index].body.toString()),
+                          onTap: () => controller.goPostPageWithPostData,
                         );
                       },
                       separatorBuilder: (BuildContext context, int index) =>

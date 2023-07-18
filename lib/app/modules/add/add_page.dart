@@ -35,10 +35,11 @@ class AddPage extends StatelessWidget {
                 const SizedBox(
                   height: 100,
                 ),
-                const SizedBox(
+                SizedBox(
                   width: 300,
                   child: TextField(
-                    decoration: InputDecoration(
+                    controller: controller.titleTextEditingController,
+                    decoration: const InputDecoration(
                         hintStyle: TextStyle(color: Colors.blue),
                         labelText: 'Title',
                         hintText: "Enter title"),
@@ -48,10 +49,11 @@ class AddPage extends StatelessWidget {
                 const SizedBox(
                   height: 50,
                 ),
-                const SizedBox(
+                SizedBox(
                   width: 300,
                   child: TextField(
-                    decoration: InputDecoration(
+                    controller: controller.bodyTextEditingController,
+                    decoration: const InputDecoration(
                         hintStyle: TextStyle(color: Colors.blue),
                         labelText: 'Content',
                         hintText: "Enter content"),
@@ -63,9 +65,9 @@ class AddPage extends StatelessWidget {
                 ),
                 OutlinedButton(
                   onPressed: () {
+                    controller.submitPost();
                     Get.snackbar(
                         'Success', 'You had Successfully Created Post!');
-
                     DashboardController.instance.changeTabIndex(0);
                   },
                   style: ButtonStyle(

@@ -4,13 +4,16 @@ part of './app_pages.dart';
 
 abstract class Routes {
   static const INITIAL = '/';
+
   static const SIGNIN = '/sign_in';
 
-  static const Application = '/application';
+  static const CHAT = '/chat';
+
+  static const POST = '/post';
+
+  // static const Application = '/application';
 
   // static const HOME = '/home';
-  static const HOME_POST_VIEW = '/home/post';
-
   // static const DISCOVER = '/discover';
   // static const ADD = '/add';
   // static const CHAT = '/chat';

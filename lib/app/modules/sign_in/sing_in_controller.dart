@@ -1,6 +1,5 @@
 // ignore_for_file: no_leading_underscores_for_local_identifiers
 
-import 'dart:math';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -34,8 +33,7 @@ class SigInController extends GetxController {
         String displayName = user.displayName ?? user.email;
         String email = user.email;
         String id = user.id;
-        String avatarUrl =
-            'https://api.dicebear.com/6.x/adventurer/png?seed=${Random().nextInt(500)}';
+        String avatarUrl = 'https://api.dicebear.com/6.x/adventurer/png?seed=';
 
         UserLoginResponseEntity userProfile = UserLoginResponseEntity();
 
