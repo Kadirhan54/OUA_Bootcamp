@@ -1,65 +1,53 @@
 // ignore_for_file: no_leading_underscores_for_local_identifiers
 
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:oua_bootcamp/app/common/entities/user.dart';
-import 'package:oua_bootcamp/app/common/routes/names.dart';
 import 'package:oua_bootcamp/app/common/store/user.dart';
-
-GoogleSignIn _googleSignIn = GoogleSignIn(
-  scopes: <String>['openid'],
-);
+import 'package:oua_bootcamp/app/routes/app_pages.dart';
 
 class SigInController extends GetxController {
   static SigInController instance = Get.find();
 
   final db = FirebaseFirestore.instance;
 
+  final GoogleSignIn _googleSignIn = GoogleSignIn(
+    scopes: <String>['openid'],
+  );
+
+  get googleSignIn => _googleSignIn;
+
   Future<void> handleSignIn() async {
     try {
-      var user = await _googleSignIn.signIn();
+      var googleAccount = await _googleSignIn.signIn();
 
-      if (user != null) {
-        final _gAuthentication = await user.authentication;
+      if (googleAccount != null) {
+        final _gAuthentication = await googleAccount.authentication;
         final _credential = GoogleAuthProvider.credential(
             idToken: _gAuthentication.idToken,
             accessToken: _gAuthentication.accessToken);
 
         await FirebaseAuth.instance.signInWithCredential(_credential);
 
-        String displayName = user.displayName ?? user.email;
-        String email = user.email;
-        String id = user.id;
-        String avatarUrl = 'https://api.dicebear.com/6.x/adventurer/png?seed=';
-
-        UserLoginResponseEntity userProfile = UserLoginResponseEntity();
-
-        userProfile.email = email;
-        userProfile.accessToken = id;
-        userProfile.displayName = displayName;
-        userProfile.avatarUrl = avatarUrl;
-
-        UserStore.to.saveProfile(userProfile);
-
-        var userbase = await db
+        var user = await db
             .collection("users")
             .withConverter(
               fromFirestore: UserData.fromFirestore,
               toFirestore: (UserData userdata, options) =>
                   userdata.toFirestore(),
             )
-            .where("id", isEqualTo: id)
+            .where("id", isEqualTo: googleAccount.id)
             .get();
 
-        if (userbase.docs.isEmpty) {
+        // if user not exists in firebase, create new.
+        if (user.docs.isEmpty) {
           final data = UserData(
-              id: id,
-              name: displayName,
-              email: email,
-              avatarUrl: avatarUrl,
+              id: googleAccount.id,
+              name: googleAccount.displayName ?? googleAccount.email,
+              email: googleAccount.email,
+              avatarUrl: user.docs.single.data().avatarUrl,
               location: '',
               fcmtoken: '',
               addtime: Timestamp.now());
@@ -74,11 +62,21 @@ class SigInController extends GetxController {
               .add(data);
         }
 
-        Get.offAndToNamed(AppRoutes.INITIAL);
+        UserLoginResponseEntity userProfile = UserLoginResponseEntity();
+
+        userProfile.email = googleAccount.email;
+        userProfile.accessToken = googleAccount.id;
+        userProfile.displayName =
+            googleAccount.displayName ?? googleAccount.email;
+        userProfile.avatarUrl = user.docs.single.data().avatarUrl;
+
+        UserStore.to.saveProfile(userProfile);
+
+        Get.offAndToNamed(Routes.MAIN);
         Get.snackbar('Success', 'You have successfully logged in!');
       }
     } catch (e) {
-      Get.snackbar('Error', 'An error occured!');
+      Get.snackbar('Error', 'There is no Google Account!');
 
       print(e);
     }

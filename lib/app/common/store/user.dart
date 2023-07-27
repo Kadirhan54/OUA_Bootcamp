@@ -41,7 +41,20 @@ class UserStore extends GetxController {
     // var result = await UserAPI.profile();
     // _profile(result);
     // _isLogin.value = true;
-   return StorageService.to.getString(STORAGE_USER_PROFILE_KEY);
+    return StorageService.to.getString(STORAGE_USER_PROFILE_KEY);
+  }
+
+  Future<UserLoginResponseEntity> getProfileUserLoginResponseEntity() async {
+    if (token.isEmpty) return UserLoginResponseEntity();
+    // var result = await UserAPI.profile();
+    // _profile(result);
+    // _isLogin.value = true;
+    String key = StorageService.to.getString(STORAGE_USER_PROFILE_KEY);
+
+    UserLoginResponseEntity userdata =
+        UserLoginResponseEntity.fromJson(jsonDecode(key));
+
+    return userdata;
   }
 
   // 保存 profile
@@ -53,7 +66,7 @@ class UserStore extends GetxController {
 
   // 注销
   Future<void> onLogout() async {
-   // if (_isLogin.value) await UserAPI.logout();
+    // if (_isLogin.value) await UserAPI.logout();
     await StorageService.to.remove(STORAGE_USER_TOKEN_KEY);
     await StorageService.to.remove(STORAGE_USER_PROFILE_KEY);
     _isLogin.value = false;

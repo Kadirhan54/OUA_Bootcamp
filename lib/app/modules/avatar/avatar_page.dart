@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:oua_bootcamp/app/modules/avatar/avatar_controller.dart';
@@ -10,6 +11,8 @@ class AvatarPage extends GetView<AvatarController> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Avatar'),
+        leading: IconButton(
+            onPressed: () => Get.back(), icon: const Icon(CupertinoIcons.back)),
         actions: const [
           Padding(
             padding: EdgeInsets.all(16),
@@ -42,7 +45,7 @@ class AvatarPage extends GetView<AvatarController> {
                 height: 50,
               ),
               OutlinedButton(
-                onPressed: () => controller.newAvatar(),
+                onPressed: () => controller.newRandomAvatar(),
                 style: ButtonStyle(
                   backgroundColor: MaterialStatePropertyAll<Color>(
                       Colors.blue.withOpacity(0.9)),

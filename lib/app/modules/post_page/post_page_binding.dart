@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:oua_bootcamp/app/post/post_page_controller.dart';
+import 'package:oua_bootcamp/app/modules/post_page/post_page_controller.dart';
 
 class PostPageBinding implements Bindings {
   @override

@@ -1,9 +1,32 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:oua_bootcamp/app/common/entities/post.dart';
 import 'package:oua_bootcamp/app/modules/home/home_controller.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
+
+  Widget buildListItem(PostData item) {
+    return Container(
+      padding: const EdgeInsets.all(12),
+      child: InkWell(
+        onTap: () {
+          if (item.id != null) {
+            HomeController.instance.goPostPageWithPostData(item);
+          }
+        },
+        child: ListTile(
+          title: Text(item.title.toString()),
+          leading: CircleAvatar(
+            backgroundColor: Colors.white,
+            child: Image.network(item.owner_avatarUrl.toString()),
+          ),
+          trailing: Text(item.like_count.toString()),
+          subtitle: Text(item.body.toString()),
+        ),
+      ),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -21,53 +44,38 @@ class HomePage extends StatelessWidget {
             ),
           ),
           toolbarHeight: 10,
-          bottom: const TabBar(tabs: [
-            Tab(text: 'Today'),
-            Tab(text: 'Popular'),
-            Tab(text: 'Follow'),
-          ]),
+          bottom: const TabBar(
+            tabs: [
+              Tab(text: 'Today'),
+              Tab(text: 'Popular'),
+              Tab(text: 'Follow'),
+            ],
+          ),
         ),
-        body: Column(
-          children: [
-            GetBuilder<HomeController>(
-              // init: HomeController(),
-              builder: (controller) {
-                if (HomeController.instance.isLoading.value) {
-                  return const Center(
-                    child: CircularProgressIndicator(),
-                  );
-                } else {
-                  return Expanded(
-                    child: ListView.separated(
-                      itemCount: HomeController.instance.postList.length,
-                      shrinkWrap: true,
-                      itemBuilder: (context, index) {
-                        return ListTile(
-                          title:
-                              Text(controller.postList[index].title.toString()),
-                          leading: CircleAvatar(
-                            backgroundColor: Colors.white,
-                            child: Image.network(controller
-                                .postList[index].owner_avatarUrl
-                                .toString()),
-                          ),
-                          trailing:
-                              // const Icon(CupertinoIcons.person),
-                              Text(controller.postList[index].like_count
-                                  .toString()),
-                          subtitle:
-                              Text(controller.postList[index].body.toString()),
-                          onTap: () => controller.goPostPageWithPostData,
-                        );
-                      },
-                      separatorBuilder: (BuildContext context, int index) =>
-                          const Divider(),
+        body: GetBuilder<HomeController>(
+          // init: HomeController(),
+          builder: (controller) {
+            if (controller.isLoading.value) {
+              return const Center(
+                child: CircularProgressIndicator(),
+              );
+            } else {
+              return CustomScrollView(
+                slivers: [
+                  SliverPadding(
+                    padding:
+                        const EdgeInsets.symmetric(horizontal: 0, vertical: 0),
+                    sliver: SliverList(
+                      delegate: SliverChildBuilderDelegate((context, index) {
+                        PostData item = controller.postList[index];
+                        return buildListItem(item);
+                      }, childCount: controller.postList.length),
                     ),
-                  );
-                }
-              },
-            ),
-          ],
+                  ),
+                ],
+              );
+            }
+          },
         ),
       ),
     );

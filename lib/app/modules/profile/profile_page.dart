@@ -1,9 +1,7 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:oua_bootcamp/app/common/entities/entities.dart';
 import 'package:oua_bootcamp/app/modules/avatar/avatar_page.dart';
-import 'package:oua_bootcamp/app/modules/home/home_controller.dart';
 import 'package:oua_bootcamp/app/modules/profile/profile_controller.dart';
 
 class ProfilePage extends StatelessWidget {
@@ -11,6 +9,28 @@ class ProfilePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Widget buildListItem(PostData item) {
+      return Container(
+        padding: const EdgeInsets.all(12),
+        child: InkWell(
+          onTap: () {
+            if (item.id != null) {
+              // ProfileController.instance.goChatWithUserData(item);
+            }
+          },
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                item.title.toString(),
+              )
+            ],
+          ),
+        ),
+      );
+    }
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Profile'),
@@ -39,56 +59,44 @@ class ProfilePage extends StatelessWidget {
               padding: const EdgeInsets.all(16),
               child: Row(
                 children: [
-                  const Column(
+                  Column(
                     children: [
-                      SizedBox(
-                        height: 50,
+                      Image.network(
+                        ProfileController.instance.avatarUrl.value ?? '',
+                        height: 100,
                       ),
-                      Text(
-                        'kadosama',
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 20),
-                      ),
-                      SizedBox(
-                        height: 10,
-                      ),
-                      Text('caylak', style: TextStyle(color: Colors.green)),
-                      SizedBox(
-                        height: 75,
-                      ),
-                      Text('15 Entry  -  2 Follower  -  1 Following'),
-                    ],
-                  ),
-                  GetBuilder<ProfileController>(builder: (controller) {
-                    return Column(
-                      children: [
-                        const SizedBox(
-                          height: 20,
+                      OutlinedButton(
+                        onPressed: () {
+                          Get.to(() => const AvatarPage());
+                        },
+                        style: ButtonStyle(
+                          backgroundColor: MaterialStatePropertyAll<Color>(
+                              Colors.blueGrey.withOpacity(0.9)),
                         ),
-                        Image.network(
-                          controller.avatarUrl.value ?? '',
-                          height: 100,
+                        child: const Text(
+                          'Change',
+                          style: TextStyle(color: Colors.black),
                         ),
-                        SizedBox(
-                          height: 25,
-                          width: 90,
-                          child: OutlinedButton(
-                            onPressed: () {
-                              Get.to(() => const AvatarPage());
-                            },
-                            style: ButtonStyle(
-                              backgroundColor: MaterialStatePropertyAll<Color>(
-                                  Colors.blueGrey.withOpacity(0.9)),
-                            ),
-                            child: const Text(
-                              'Change',
-                              style: TextStyle(color: Colors.black),
-                            ),
+                      ),
+                      SizedBox(
+                        height: 25,
+                        width: 90,
+                        child: OutlinedButton(
+                          onPressed: () {
+                            ProfileController.instance.handleLogOut();
+                          },
+                          style: ButtonStyle(
+                            backgroundColor: MaterialStatePropertyAll<Color>(
+                                Colors.red.withOpacity(0.9)),
                           ),
-                        )
-                      ],
-                    );
-                  }),
+                          child: const Text(
+                            'Log Out',
+                            style: TextStyle(color: Colors.white),
+                          ),
+                        ),
+                      )
+                    ],
+                  )
                 ],
               ),
             ),
@@ -109,24 +117,27 @@ class ProfilePage extends StatelessWidget {
               ),
             ),
           ),
-          GetBuilder<HomeController>(builder: (controller) {
-            return Expanded(
-              child: ListView.separated(
-                itemCount: HomeController.instance.liste.length,
-                shrinkWrap: true,
-                itemBuilder: (context, index) {
-                  return ListTile(
-                    title: Text(controller.liste[index]['title']),
-                    trailing:
-                        // const Icon(CupertinoIcons.person),
-                        Text(Random().nextInt(100).toString()),
-                    subtitle: Text(controller.liste[index]['body']),
-                  );
-                },
-                separatorBuilder: (BuildContext context, int index) =>
-                    const Divider(),
-              ),
-            );
+          GetBuilder<ProfileController>(builder: (controller) {
+            if (controller.isLoading.value == false) {
+              return Expanded(
+                child: CustomScrollView(
+                  slivers: [
+                    SliverPadding(
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 0, vertical: 0),
+                      sliver: SliverList(
+                        delegate: SliverChildBuilderDelegate((context, index) {
+                          PostData item = controller.userOwnedPostsList[index];
+                          return buildListItem(item);
+                        }, childCount: controller.userOwnedPostsList.length),
+                      ),
+                    ),
+                  ],
+                ),
+              );
+            } else {
+              return const CircularProgressIndicator();
+            }
           }),
         ],
       ),

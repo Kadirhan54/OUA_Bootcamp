@@ -1,17 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:get/get.dart';
 import 'package:oua_bootcamp/app/common/entities/post.dart';
-import 'package:oua_bootcamp/app/data/client/api_client.dart';
 
 class HomeController extends GetxController {
   static HomeController instance = Get.find();
-
-  MyApiClient apiClient = Get.find<MyApiClient>();
-
-  // // RxList<dynamic> liste = List<MyModel>.empty(growable: true).obs;
-  final _liste = List<dynamic>.empty(growable: true).obs;
-  get liste => _liste;
-  set liste(value) => _liste.value = value;
 
   RxBool isLoading = true.obs;
 
@@ -24,39 +16,52 @@ class HomeController extends GetxController {
     super.onInit();
     // fetchPosts();
     getPostsFromFirebase();
-    fetchPosts();
   }
 
   @override
   onReady() {
     super.onReady();
 
-    db
-        .collection("posts")
-        .where("id", isEqualTo: '0')
-        .snapshots()
-        .listen((event) {
-      update();
-    });
+    // db
+    //     .collection("posts")
+    //     .where("id", isEqualTo: '0')
+    //     .snapshots()
+    //     .listen((event) {
+    //   update();
+
+    // });
     // postList.listen((event) {
     //   update();
     // });
   }
 
   goPostPageWithPostData(PostData postData) {
+    // final parameters = {
+    //   'id': postData.id ?? '',
+    //   'title': postData.title ?? '',
+    //   'body': postData.body ?? '',
+    //   'like_count': postData.like_count.toString(),
+    //   'owner_avatarUrl': postData.owner_avatarUrl ?? '',
+    //   'add_time': postData.add_time,
+    // };
+
     Get.toNamed(
       '/post',
-      parameters: {
+      arguments: {
+        'id': postData.id ?? '',
         'title': postData.title ?? '',
         'body': postData.body ?? '',
-        'like_count': postData.like_count.toString(),
+        'like_count': postData.like_count,
         'owner_avatarUrl': postData.owner_avatarUrl ?? '',
-        'add_time': postData.add_time.toString(),
+        'add_time': postData.add_time,
+        'user_id': postData.user_id,
       },
     );
   }
 
   Future<void> getPostsFromFirebase() async {
+    isLoading(true);
+
     var postBase = await db
         .collection('posts')
         .withConverter(
@@ -71,15 +76,6 @@ class HomeController extends GetxController {
     }
 
     isLoading(false);
-    update();
-  }
-
-  void fetchPosts() async {
-    isLoading(true);
-    var res = await apiClient.getAllPosts();
-    liste(res);
-    isLoading(false);
-    // liste.assignAll(res);
     update();
   }
 }
